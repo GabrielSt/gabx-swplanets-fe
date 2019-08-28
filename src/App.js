@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+
+import Button from "./components/button";
+import PlanetCard from "./components/planetCard";
 
 function App() {
   return (
@@ -9,6 +12,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Star Wars planets.</p>
       </header>
+      <PlanetCard />
+      <div className="container">
+        <Button text="Give me a planet!" />
+      </div>
     </div>
   );
 }

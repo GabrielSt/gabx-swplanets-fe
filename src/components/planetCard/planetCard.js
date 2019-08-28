@@ -1,6 +1,6 @@
 import React from "react";
 
-// import { Container } from './styles';
+import "./styles.scss";
 
 const Card = () => {
   return (
@@ -9,8 +9,11 @@ const Card = () => {
         <div id="top-pic"></div>
         <div id="info-box">
           <div class="info">
-            <h1>Jesse Couch</h1>
-            <h2>Digital Creative</h2>
+            <h1>Planet x</h1>
+            <h2>Population: 20000</h2>
+            <h2>Climate: Arid</h2>
+            <h2>Terrain: Desert</h2>
+            <h2>Featured in 5 films</h2>
           </div>
         </div>
       </div>
