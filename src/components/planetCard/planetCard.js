@@ -8,7 +8,9 @@ const Card = props => {
   return (
     <div id="card">
       <div id="front">
-        <div id="top-pic">{planet.name}</div>
+        <div id="top-pic">
+          <p className="planetTitle">{planet.name}</p>
+        </div>
         <div id="info-box">
           <div className="info">
             <h2>Population: {planet.population}</h2>
