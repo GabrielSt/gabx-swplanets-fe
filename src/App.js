@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import "../node_modules/toastr/build/toastr.css";
 
 import Main from "./pages/main";
 

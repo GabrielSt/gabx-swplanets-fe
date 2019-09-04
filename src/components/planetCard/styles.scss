@@ -3,23 +3,18 @@
   transition: 0.5s ease-in-out;
 }
 
-html,
 body {
-  h1 {
-    font-size: 25px;
-    font-weight: 200;
-    color: white;
-    line-height: 30px;
-    margin-bottom: 10px;
-  }
   h2 {
     font-size: 15px;
-    color: #6b0500;
+    color: #130909;
   }
 }
 .planetTitle {
   margin: 0px;
   padding-top: 1.8em;
+  text-align: left;
+  padding-left: 0.4em;
+  font-size: 0.8em;
 }
 #wrapper {
   opacity: 0;
@@ -76,7 +71,10 @@ body {
   .info {
     display: table-cell;
     height: 100%;
-    vertical-align: middle;
-    text-align: center;
+    text-align: left;
+    .infoValue {
+      color: #bbbbbb;
+      display: inline;
+    }
   }
 }
